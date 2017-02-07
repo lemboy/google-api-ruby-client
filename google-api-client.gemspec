@@ -3,12 +3,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'google/apis/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'google-api-client'
+  spec.name          = 'lemboy-google-api-client'
   spec.version       = Google::Apis::VERSION
   spec.authors       = ['Steven Bazyl', 'Tim Emiola', 'Sergio Gomes', 'Bob Aman']
   spec.email         = ['sbazyl@google.com']
   spec.summary       = %q{Client for accessing Google APIs}
-  spec.homepage      = 'https://github.com/google/google-api-ruby-client'
+  spec.homepage      = 'https://github.com/lemboy/lemboy-google-api-ruby-client'
   spec.license       = 'Apache 2.0'
 
   spec.files         = `git ls-files -z`
